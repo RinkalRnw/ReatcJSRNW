@@ -3,15 +3,20 @@ import './App.css';
 import React, {useState} from 'react';
 import EventComponent from './components/EventComponent';
 import ConditionalComponent from './components/ConditionalComponent';
+import List from './components/List';
+import FormControl from './components/FormControl';
 
 function App() {
+  // const no = [11,22,33];
   return (
-    <div className="App">
-      <h1>HOC Example</h1>
-      <HOC cntdata={Counter}/>
-      <EventComponent />
-      <ConditionalComponent />
-    </div>
+    <FormControl />
+    // <div className="App">
+    //   <h1>HOC Example</h1>
+    //   <HOC cntdata={Counter}/>
+    //   <EventComponent />
+    //   <ConditionalComponent />
+    //   <List number={no}/>
+    // </div>
   );
 }
 function HOC(props){ 

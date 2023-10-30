@@ -9,7 +9,7 @@ const FormControl = ()=> {
             console.log("Pwd is "+password)
             console.log("Email is "+email)
        
-    }
+    }                                 
     
   return (
     
